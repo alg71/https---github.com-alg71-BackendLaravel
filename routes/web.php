@@ -15,4 +15,4 @@ Route::get('/registro', [UsuarioController::class, 'create'])->name('registro.cr
 Route::post('/registro', [UsuarioController::class, 'store'])->name('registro.store');
 Route::get('/delete', [UsuarioController::class, 'delete'])->name('delete.index');
 Route::delete('/delete', [UsuarioController::class, 'destroy'])->name('delete.destroy');
-Route::delete('/delete', [UsuarioController::class, 'destroy'])->name('delete.destroy');
+
